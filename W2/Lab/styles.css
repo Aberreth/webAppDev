@@ -1,0 +1,12 @@
+body{
+    background-color: lightpink;
+}
+p{
+    color:red;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+img{
+    width:400px;
+
+}
