@@ -1,0 +1,43 @@
+body{
+    background-color: #f2cdf5;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color:black;
+    text-align: center;
+    font-size: medium;
+}
+h1{
+    font-size:xx-large;
+}
+img{
+    width:400px;
+}
+.mainheader{
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 55px
+}
+a{
+    color: #3D1AEB
+}
+a:hover{
+    color: magenta;
+}
+nav{
+    text-align: center;
+}
+th{
+    padding-inline: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.highlight{
+    font-weight: bold;
+    color: #ed89ed
+}
+.EVIL{
+    color:red;
+    font-family:'Times New Roman', Times, serif
+}
