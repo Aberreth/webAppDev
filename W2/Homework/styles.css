@@ -1,0 +1,14 @@
+body{
+    background-color: #ECE0FF;
+}
+p{
+    color:rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: left;
+    text-decoration: underline;
+}
+a{
+    color: #CF00C1
+}
