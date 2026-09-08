@@ -5,18 +5,31 @@ p{
     color:rgb(0, 0, 0);
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-h1{
-    text-align: left;
-    text-decoration: underline;
-    padding-left: 55px
-}
 a{
     color: #3D1AEB
 }
 a:hover{
-    color: magenta;
+    color: darkorchid;
 }
 .highlight{
     font-weight: bold;
-    color: #9B5FD9
+    color: #9B5FD9;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.EVIL{
+    color:red;
+    font-family:'Times New Roman', Times, serif
+}
+.nav-links{
+    text-align: center;
+}   
+#mainheader{
+    text-align: left;
+    text-decoration: underline;
+    padding-left: 55px
+}
+th{
+    padding-inline: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
