@@ -1,32 +1,41 @@
-// Comparison operatiors
-// === equal to
-// !== not equal to
-
-console.log(1===1);
-console.log(1!==1);
-
-// let score =85;
-if (score>99){
-    console.log("A")
+// Creates a song name string variable, and then prompts the user for a play count integer variable.
+// Depending on the number of plays inputted, the console outputs a different statement. This could have been done in a cleaner way but ehhhhhhhhhhh
+let currentSong="With Hope Crossed On Our Hearts - Toby Fox"
+let songPlays=Number(prompt("How many times has the song been played?"))
+if (songPlays >= 50){
+    let songPlaysString = "a lot"
+    console.log(currentSong.concat("\nYou've played this song ", songPlaysString))
 }
-else if(score>79){
-    console.log("B")
+else if (songPlays >= 15) {
+    let songPlaysString = "a bit"
+    console.log(currentSong.concat("\nYou've played this song ", songPlaysString))
 }
-else if(score>69){
-    console.log("C")
-}
-else{
-    console.log("mediocre grade")
+else {
+    let songPlaysString = "a little"
+    console.log(currentSong.concat("\nYou've played this song ", songPlaysString))
 }
 
-// We use prompt() to make websites more interactive
-// let score = 85; is a hardcoded variable
 
-let score = Number(prompt("Enter your score (0-100)"))
-// input is a string data type. number() converts it to an integer
+// Prompts their user on their opinion of a non-existent playlist, then uses strict operators to determine a response.
+let isPlaylistGood = prompt("Is the playlist good? [y/n]") 
+if (isPlaylistGood === "y") {
+    console.log("The playlist is awesomesauce")
+}
+else {
+    console.log("The playlist sucks bad")
+}
 
-document.body.innerHTML += "<p>The score you got is a" + score + "</p>";
-
-// Ask the user for their name, then display "Hello [name]"
-let username=prompt("What is your name?")
-
+// Prompts a user for song names, then creates a list from the given data and outputs the variable into the console.
+let favSongs = []
+let enterSong = prompt("Would you like to add a favorite song? [y/n]")
+if (enterSong === "y"){
+    while (favSongs.length < 10) {
+        let songToAdd = prompt("Name the song, or enter 'q' to quit")
+    if (songToAdd === "q") {
+        break
+    }
+    else {
+        favSongs.push(songToAdd)
+    }}
+}
+console.log(favSongs)
