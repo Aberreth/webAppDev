@@ -1,0 +1,9 @@
+body{
+    background-color: #e6e6fa;
+    color: #291932
+}
+/* The 'dark' theme we will toggle later */
+.dark {
+background: #291932;
+color: #e6e6fa;
+}
