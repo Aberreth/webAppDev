@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Alek Bereth W12: Forms</title> <!-- Fill in: page title -->
+  <script src="scripts.js" defer></script>
+</head>
+<body>
+  <h1>Form test</h1> <!-- Fill in: heading text -->
+
+  <form id="comments"> <!-- Give your form an id -->
+    <label for="name">Name:</label> <!-- Label text -->
+    <input id="name" type="text" placeholder="Your name" required />
+    <br>
+
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="you@example.com" required />
+    <br>
+    
+    <label for="color">Fav color?</label>          
+    <select id="color">
+        <option value="red">red</option>
+        <option value="blue">blue</option>
+        <option value="white">white</option>
+    </select>
+    <br>
+
+    <label for="message">Comment:</label>
+    <textarea id="message" rows="4" placeholder="Write something..."></textarea>
+    <br>
+
+    <button type="submit">Submit</button> <!-- Button type and text -->
+  </form>
+
+  <section id="results"></section> <!-- Section to display results -->
+
+  <!--1. IDs uniquely identify elements of the webpage, allowing them to be "seen" by other processes, such as Javascript, so they can be read from and written to.
+-->
+  <!--2. It doesn't need to be, it can also be in the <head> so long as it has the defer property as well.
+         The <script> tag must be present either way, because it allows the page to read from the Javascript file to execute the code within.
+         Putting the <script> at the end, or using "defer", means that the script will only try to execute once the page is loaded in.
+-->
+        
+  <!--<script src="__________"></script> JS file name -->
+</body>
+</html>
