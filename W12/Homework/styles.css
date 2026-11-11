@@ -8,10 +8,14 @@ form{
       So I tried this, and it works without issues (as far as I know) so it stays.*/
     display: -webkit-inline-flex;
     padding: 5px;
+    /*Makes the order box content centered in a column*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /*Creates a dashed border*/
     border-style: dashed;
-    inline-size: 250px;
+    /*Wraps the text if it exceeds the border*/
+    inline-size: 245px;
     overflow-wrap: break-word;
+}
 }
