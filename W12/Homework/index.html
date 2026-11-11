@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!--Intensely uncreative header-->
+<h1>Cittle Leasars</h1>
+<h3>Order your pizza here!</h3>
+<form id="order">
+   <label for="customername">Name:</label>
+      <input id="customername" type="text" placeholder="Enter your name" required/>
+      <br>
+   <label>Pizza size:<br>
+      <input type="radio" name="size" value="Small" required/>
+      Small
+      <input type="radio" name="size" value="Medium" required/>
+      Medium
+      <input type="radio" name="size" value="Large" required/>
+      Large
+   </label>
+      <br>
+   <label>Toppings?<br>
+      <input type="checkbox" value="Pepperoni" name="toppings"/>
+      Pepperoni
+         <br>
+      <input type="checkbox" value="Sausage" name="toppings"/>
+      Sausage
+         <br>
+      <input type="checkbox" value="Bacon" name="toppings"/>
+      Bacon
+         <br>
+      <input type="checkbox" value="Pineapple" name="toppings"/>
+      Pineapple
+         <br>
+      <input type="checkbox" value="Pizza Tables" name="toppings"/>
+      Pizza Tables
+         <br>
+      <input type="checkbox" value="Apple" name="toppings"/>
+      Apple
+         <br>
+   </label>
+      <br>
+   <label for="side">Select a side of your choice</label>
+      <br>   
+   <select id="side">
+      <option value="None">None</option>
+      <option value="Breadsticks">Breadsticks</option>
+      <option value="Garlic Knots">Garlic Knots</option>
+   </select>
+         <br> 
+   <label for="requests">Requests:</label><br>
+      <textarea id="requests" rows="3" cols="38" placeholder="Any special requests?"></textarea>
+   <br>   
+
+      <button type="submit">Submit</button> 
+      <section id="confirm"></section>
+</form>
+</body>
+</html>
