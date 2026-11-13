@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 13 - Form Validation</title>
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<form id = "contactForm">
+    <h1>Contact Form</h1>
+
+    <label for="username">Name:</label>
+        <input id="username" type="text" placeholder="Enter your name"/>
+        <p id="usernameError" class="error"></p>
+        <br> 
+    <label for="email">Email:</label>
+        <input id="email" type="email" placeholder="You@email.com"/> 
+        <p id="emailError" class="error"></p>
+        <br>
+    <label for="age">Age:</label>
+        <input id="age" type="number" min="0" Max="105"/>
+        <p id="ageError" class="error"></p>
+    <button type="submit" id="fixed_button">Submit</button>
+</form>
+    <section id="success" class="success"></section>
+</body>
+</html>
