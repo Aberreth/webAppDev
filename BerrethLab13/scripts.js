@@ -1,5 +1,4 @@
 const contactForm = document.getElementById("contactForm");
-const result = document.getElementById("results");
 let fail = false
 
 // Each of these check for the field being invalid when the user leaves it.
